@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>UX_UI_HW_20</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -33,21 +33,21 @@
         background-image: url("img/Vpalm\ 1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
       }
 
       .carousel-item:nth-child(2){
         background-image: url("img/Vpalm2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
       }
 
       .carousel-item:nth-child(3){
         background-image: url("img/Vpalm\ 3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
       }
 
      
@@ -55,9 +55,9 @@
   </head>
   <body>
     
-    <header>
+    <header class="mb-5">
         <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -109,8 +109,9 @@
 <!-- Carousel wrapper -->
 <div 
   id="carouselBasicExample" 
-  class="carousel slide carousel-fade" 
-  >
+  class="carousel slide carousel-fade shadow-5-strong" 
+  data-mdb-ride="carousel">
+  
   <!-- Indicators -->
   <div class="carousel-indicators">
     <button
@@ -142,9 +143,14 @@
       <div class="carousel-item active">
         <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3);">
        
-        <div class="d-flex justify-content-center align-items-center h-100 text-white">
-          <h1> The Hottest Hotel in Dubai Palm Jumeirah  </h1>
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-center text-white">
+          <h1 class="mb-4"> The Hottest Hotel in Dubai Palm Jumeirah</h1>
+         
           
+          <button type="button" 
+          class="btn btn-outline-light btn-lg" 
+          data-mdb-ripple-color="Light">Click Here</button>
     
       
         </div>
@@ -153,21 +159,66 @@
     </div>
       
     </div>
+  </div>
 
     <!-- Single item -->
     <div class="carousel-item">
+      <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3);">
+       
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-center text-white">
+          <h1 class="mb-4"> The Hottest Hotel in Dubai Palm Jumeirah</h1>
+         
+          
+          <button type="button" 
+          class="btn btn-outline-light btn-lg" 
+          data-mdb-ripple-color="Light">Click Here</button>
+    
       
+        </div>
+        
+       
+    </div>
+      
+    </div>
+  </div>
     </div>
 
     <!-- Single item -->
-    <div class="carousel-item">
-     
+      <div class="carousel-item">
+        <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3);">
+         
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-center text-white">
+            <h1 class="mb-4"> The Hottest Hotel in Dubai Palm Jumeirah</h1>
+           
+            
+            <button type="button" 
+            class="btn btn-outline-light btn-lg" 
+            data-mdb-ripple-color="Light">Click Here</button>
+      
+        
+          </div>
+          
+         
+      </div>
+        
+      </div>
+    </div>
+      </div>
   </div>
+
+
   <!-- Inner -->
 
   <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button 
+  class="carousel-control-prev" 
+  type="button" 
+  data-mdb-target="#carouselBasicExample" 
+  data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" 
+    aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
@@ -178,7 +229,87 @@
 <!-- Carousel wrapper -->
     </header>
 
-    <main></main>
+    <main>
+
+  <main>
+<div class="container">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/card 1.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">BEACH BY FIVE</h5>
+            <p class="card-text">Far from your average hotel beach. Spanning 150 metres, Beach by FIVE will keep you entertained throughout the day. </p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/card 4.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">REJUVENATE AT REFIVE</h5>
+            <p class="card-text">Choose between a meditative 45-minute massage or a glowing facial and enjoy complimentary beach access to recharge your body (it will thank you!) at Beach by FIVE.</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/card.3.png" class="img-fluid"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">SUPERIOR ROOM</h5>
+            <p class="card-text">Watch the sun set over the Dubai city skyline from your own private balcony. Our superior rooms feature a king size bed, high-speed internet, complimentary refreshments, balcony and city views. We call it superior because it is anything but standard</p>
+            <a href="#!" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <br>
+      </div>
+      <div class="col">
+        <br>
+      </div>
+      <div class="col">
+        <br>
+      </div>
+    </div>
+    <div class="row align-items-end">
+      <div class="col">
+        <br>
+      </div>
+      <div class="col">
+        <br>
+      </div>
+      <div class="col">
+        <br>
+      </div>
+    </div>
+  </div>
+
+ 
+
+</main>
+
+
 
     <footer></footer>
 
@@ -188,3 +319,5 @@
     <script type="text/javascript"></script>
   </body>
 </html>
+
+
